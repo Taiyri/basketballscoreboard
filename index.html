@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class = "score-container">
+                <h3>HOME</h3>
+                <div class = "score-box" id = "home-score">0</div>
+                <div class = "button-container" id = "home">
+                    <button class = "plus-one btn">+1</button>
+                    <button class = "plus-two btn">+2</button>
+                    <button class = "plus-three btn">+3</button>
+                </div>
+            </div>
+            <div>
+                <div class = "score-container">
+                    <h3>GUEST</h3>
+                    <div class = "score-box" id = "guest-score">0</div>
+                    <div class = "button-container" id = "guest">
+                        <button class = "plus-one btn"">+1</button>
+                        <button class = "plus-two btn"">+2</button>
+                        <button class = "plus-three btn"">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "reset-container">
+            <button id = "reset-btn" onclick = "reset()">RESET</button>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
