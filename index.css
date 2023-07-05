@@ -1,3 +1,8 @@
+@font-face {
+    font-family: timer;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
 body {
     margin: 0;
 }
