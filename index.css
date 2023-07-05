@@ -56,7 +56,7 @@ h3 {
     width: 155px;
     height: 120px;
     background-color: #080001;
-    font-family: timer, sans-serif;
+    font-family: timer;
     color: #f94f6d;
     display: flex;
     justify-content: center;
@@ -74,7 +74,7 @@ h3 {
 /************************************************/
 
 #reset-btn {
-    font-family: timer, sans-serif;
+    font-family: timer;
     background-color: #1B244A;
     color: #9AABD8;
     border: 2px solid #9AABD8;
